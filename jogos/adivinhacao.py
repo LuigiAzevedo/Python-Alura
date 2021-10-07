@@ -1,6 +1,6 @@
-def jogar():
+import random
 
-    import random
+def jogar():
 
     print("\n\n***********************************")
     print("*Bem vindo ao jogo de Adivinhação!*")
@@ -50,5 +50,7 @@ def jogar():
                 print("O seu chute foi menor do que o número secreto!")
                 pontos -= numero_secreto - chute
 
-
     print("Fim do jogo")
+
+if __name__ == "__main__":
+    jogar()
